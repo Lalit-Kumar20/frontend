@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\\Users\\LALIT\\Desktop\\projects\\frontend\\styles.css">
+    <title>Blog</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+           <div class="navbar-nav">
+             <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+             <a class="nav-item nav-link" href="#">About Me</a>
+             <a class="nav-item nav-link" href="#">Contact</a>
+             </div>
+          </div>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+       </nav>
+       
+<div class="login-box">
+    <h1>Sign Up</h1>
+    <div class = "textbox">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <input type="text" placeholder="Full Name" name="" value="">
+    </div>
+    <div class = "textbox">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <input type="email" placeholder="Email" name="" value="">
+    </div>
+    <div class = "textbox">
+        <i class="fa fa-lock" aria-hidden="true"></i>
+        <input type="password" placeholder="Password" name="" value="">
+    </div>
+</div>
+<div id="bottom">
+    <button class="login">Sign Up</button><br>
+</div>
+
+<p>
+    Below is a image slider made in css only <br>
+    I here used radio buttons for image slider when pressed<br>
+    the corressponding image is displayed.
+</p>
+
+<div class="container">
+	
+	<input type="radio" id="i1" name="images" checked />
+	<input type="radio" id="i2" name="images" />
+	<input type="radio" id="i3" name="images" />
+	<input type="radio" id="i4" name="images" />
+	<input type="radio" id="i5" name="images" />	
+	
+	<div class="slide_img" id="one">			
+			
+			<img src="http://www.bhmpics.com/wallpapers/little_pony_art-800x480.jpg">
+			
+				<label class="prev" for="i5"></label>
+				<label class="next" for="i2"></label>	
+		
+	</div>
+	
+	<div class="slide_img" id="two">
+		
+			<img src="https://preview.ibb.co/e5OShF/cropped_800_480_111290.jpg " >
+			
+				<label class="prev" for="i1"></label>
+				<label class="next" for="i3"></label>
+		
+	</div>
+			
+	<div class="slide_img" id="three">
+			<img src="http://wallpaperswide.com/download/up_house-wallpaper-1280x800.jpg">	
+			
+				<label class="prev" for="i2"></label>
+				<label class="next" for="i4"></label>
+	</div>
+
+	<div class="slide_img" id="four">
+			<img src="http://wallpaperswide.com/download/big_hero_6_baymax-wallpaper-1152x720.jpg">	
+			
+				<label class="prev" for="i3"></label>
+				<label class="next" for="i5"></label>
+	</div>
+
+	<div class="slide_img" id="five">
+			<img src="https://wallpaperaccess.com/full/240656.jpg">	
+			
+				<label class="prev" for="i4"></label>
+				<label class="next" for="i1"></label>
+
+	</div>
+
+	<div id="nav_slide">
+		<label for="i1" class="dots" id="dot1"></label>
+		<label for="i2" class="dots" id="dot2"></label>
+		<label for="i3" class="dots" id="dot3"></label>
+		<label for="i4" class="dots" id="dot4"></label>
+		<label for="i5" class="dots" id="dot5"></label>
+	</div>
+		
+</div>
+<br>
+<br>
+<br>
+<section id ="foot">
+<h5>MADE BY LALIT</h5>
+</section>
+<br>
+<br>
+    <button class = "btt" type = "button"><i class="fa fa-github" aria-hidden="true"></i></button>
+    
+
+
+
+      
+
+</body>
+</html>

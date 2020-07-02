@@ -1,0 +1,68 @@
+body {
+    background-color: #1D4383;
+}
+
+#top{
+    text-align: right;
+   
+    
+}
+#top .cancel, #top .signup{
+    width: 100px;
+    height:40px;
+    text-align:center;
+    background-color: #193667;
+    font-size: 20px;
+    margin: 10px;
+    color: aliceblue;
+    border-radius: 12%;
+    outline-color: #193667 ;
+    border: 0;
+    
+
+    font-family: 'Orbitron', sans-serif;
+
+    font-family: 'Righteous', cursive;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Righteous', cursive;
+    margin-top: 10%;
+    color: aliceblue;
+}
+form {
+    text-align: center;
+}
+form #email ,form #pass {
+    width: 200px;
+    height: 30px;
+    border-radius: 10%;
+}
+#bottom {
+    text-align: center;
+    margin :30px;
+}
+#bottom .login {
+    width: 130px;
+    height: 50px;
+    background-color: #193667 ;
+    border: 0;
+    font-size: 25px;
+    color: #5B91ED;
+}
+#bottom .login:hover {
+    color: #194794;
+    background: #5B91ED;
+    box-shadow: 0 0 10px #5B91ED,0 0 40px #5B91ED,0 0 80px #5B91ED ;
+}
+#bottom .forget {
+    background:  #1D4383;
+    background-color:  #1D4383;
+    border :0;
+    font-size: 13px;
+}
+#bottom .forget:hover {
+   text-decoration: underline;
+}
